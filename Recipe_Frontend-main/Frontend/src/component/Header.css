@@ -1,0 +1,12 @@
+.nav-link-custom {
+    color: #343a40; /* Darker color */
+    font-size: 1.2rem; /* Increased font size */
+    font-weight: bold;
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .nav-link-custom:hover,
+  .nav-link-custom:focus,
+  .nav-link-custom.active {
+    text-decoration: underline; /* Add underline on hover, focus, and active state */
+  }
